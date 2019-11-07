@@ -1,0 +1,5 @@
+<?php
+/*
+DOSSIER DES FICHIERS UPLOADES
+*/
+?>

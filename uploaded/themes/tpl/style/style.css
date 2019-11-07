@@ -1,0 +1,271 @@
+
+#code{
+background-color: #eec886;
+}
+
+#quote{
+background-color: #eec886;
+}
+
+body {
+margin : 0;
+background : url('../img/bg.jpg');
+font-family : Verdana, Arial, Helvetica, sans-serif;
+color : #333333;
+font-size : 0.7em;
+}
+a:link {
+color : #000000;
+text-decoration : none;
+}
+a:visited {
+color : #000000;
+text-decoration : none;
+}
+a:hover {
+color : #000000;
+text-decoration : underline;
+}
+h1, h2, h3, h4, h5 {
+font-family : "Trebuchet MS", Verdana, sans-serif;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a {
+text-decoration : none;
+}
+h2 {
+font-size : 1.2em;
+margin : 1em 0;
+}
+h3 {
+font-size : 1em;
+margin : 0.8em 0;
+}
+h4 {
+font-size : 1em;
+font-weight : normal;
+}
+table {
+font-size : 1em;
+}
+textarea {
+width : 600px;
+}
+textarea {
+width : 100%;
+}
+#top {
+border-right : 1px solid #cccccc;
+padding-bottom : 200px;
+background : url('../img/head.jpg');
+}
+#top h1 {
+font-size : 12px;
+font-family : "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+padding : 5px 0 0 10px;
+margin : 0;
+}
+
+#sm_chat{
+background-color: #ffffff;
+}
+#page {
+background-color : #ffffff;
+width : 800px;
+border-top : 8px solid #ff9900;
+border-bottom : 3px solid #ff9900;
+margin-left : auto;
+margin-right : auto;
+height : auto;
+}
+#main {
+height : 100%;
+margin-left : 2px;
+margin-right : 2px;
+padding-left : 2px;
+padding-right : 2px;
+padding-top : 2px;
+}
+#sidebar {
+float : right;
+margin : 0;
+width : 170px;
+}
+#sidebar h2 {
+background-color : #ff9900;
+margin-top : 2px;
+padding : 2px;
+color : #ffffff;
+font-size : 11px;
+font-family : "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+font-weight : bolder;
+}
+.sm_chat{
+	background-color: #ffffff;
+	border-STYLE: solid;
+	border-WIDTH: 1px;
+	border-color: #000000;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.bloc {
+width : 150px;
+background-color : #ffffff;
+text-align : left;
+padding-left : 10px;
+padding-right : 10px;
+padding-bottom : 10px;
+margin-bottom : 10px;
+margin-left : 0;
+margin-right : 0;
+margin-top : 5px;
+border-style : dashed;
+border-width : 1px;
+border-color : #dddddd;
+}
+.bloc a {
+color : #64634b;
+text-decoration : none;
+padding-left : 10px;
+}
+.bloc a:hover {
+background-image : url("../img/puce.png");
+background-repeat : repeat-y;
+border-color : #ffffff;
+border-bottom : 1px solid;
+}
+.bloc2 {
+position : static;
+width : 75%;
+background-color : #ffffff;
+text-align : left;
+padding-left : 10px;
+padding-right : 2px;
+padding-bottom : 10px;
+margin-bottom : 10px;
+margin-left : 0;
+margin-right : 0;
+border-style : solid;
+border-width : 1px;
+border-color : #dddddd;
+}
+.bloc2 a {
+color : #64634b;
+text-decoration : none;
+font-size : 1em;
+}
+.bloc2 h2 {
+color : #ff9900;
+}
+.bloc2 a:hover {
+background-repeat : repeat-y;
+border-color : #b9b9b9;
+border-bottom : 1px solid;
+font-size : 1em;
+}
+#content {
+float : left;
+width : 80%;
+text-align : left;
+margin-top : 5px;
+margin-bottom : 5px;
+padding : 0;
+color : #555;
+}
+#content h2 {
+margin-top : 3px;
+margin-bottom : 0;
+background-repeat : no-repeat;
+}
+#footer {
+border-top : 1px solid;
+border-bottom : 1px solid;
+border-color : #ff9900;
+text-align : center;
+font-family : arial, sans-serif;
+font-size : 11px;
+background-color : #ffffff;
+width : 800px;
+clear : both;
+}
+
+
+
+#stat a {
+text-decoration:none;
+display:block;
+}
+#stat a:hover {
+color:black;
+background-color: transparent;
+}
+#stat a span {display: none; background-color:#ccc; border:1px solid #aaa;color:black;}
+#stat a:hover span {
+display:block;
+}
+
+/*Calendrier*/
+th.cet_cal_0
+		{
+		width: 70px;
+		height: 24px;
+		border: 1px solid #10659e;
+		text-align: center;
+		vertical-align: middle;
+		background-color: #c1cdd8;
+		font: normal 8pt verdana;
+		color: #10659e;
+}
+table.cal
+		{
+		width: 490px;
+		border: 1px solid #10659e;
+		border-collapse: collapse;
+		margin: 0px;
+		margin-top: 10px;
+		padding: 0px;
+
+}
+td.cel_cal_vid
+		{
+		width: 70px;
+		height: 45px;
+		margin: 0px;
+		padding: 0px;
+		text-align:center;
+		vertical-align: middle;
+		background-color: #f2f7f2;
+		border: 1px solid #10659e;
+}
+	td.cel_cal_jou
+		{
+		width: 70px;
+		height: 45px;
+		margin: 0px;
+		padding: 0px;
+		text-align:center;
+		vertical-align: middle;
+		background-color: #ffffff;
+		border: 1px solid #10659e;
+}
+	td.cel_cal_auj
+		{
+		width: 70px;
+		height: 45px;
+		margin: 0px;
+		padding: 0px;
+		text-align:center;
+		vertical-align: middle;
+		background-color: #fffae0;
+		border: 1px solid #10659e;
+}
+	td.cel_cal_eve
+		{
+		width: 70px;
+		height: 45px;
+		margin: 0px;
+		padding: 0px;
+		text-align:center;
+		vertical-align: middle;
+		background-color: #d8d8d8;
+		border: 1px solid #10659e;
+}

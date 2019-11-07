@@ -1,0 +1,102 @@
+<?php
+
+define ( 'DOWNLOAD' , 'Téléchargements' );
+define ( 'DOWNLOAD_CATS' , 'Catégories' );
+define ( 'DOWNLOAD_SUB_CATS' , 'Sous-Catégories' );
+define ( 'DOWNLOAD_STATS' , 'Statistiques du module' );
+define ( 'DOWNLOAD_NB_FILE' , 'Nombre de fichiers' );
+define ( 'DOWNLOAD_NB_HIT' , 'Nombre de vues' );
+define ( 'DOWNLOAD_ADD_MAIN_CAT' , 'Ajouter une catégorie' );
+define ( 'DOWNLOAD_COMMENT_DELETED_SUCCESSFULLY' , 'Commentaire supprimé avec succès' );
+define ( 'DOWNLOAD_COMMENT_EDITED_SUCCESSFULLY' , 'Commentaire edité avec succès' );
+define ( 'DOWNLOAD_HOWTO_ADD_SUB_AND_FILES' , 'Comment ajouter des sous-catégories ou des fichiers ?' );
+define ( 'DOWNLOAD_HOWTO_ADD_SUB_AND_FILES_TXT' , 'Toutes les opérations concernant :
+- La modification ( Catégories, sous-catégories, fichiers );
+- L\'ajout de sous-catégories ou de fichiers:
+- La suppression,
+ne peuvent être effectuées depuis l\'administration.
+
+Vous trouverez des lien pour effectuer ces opérations directement dans le module ;)' );
+define ( 'DOWNLOAD_NB_DOWNLOAD' , 'Nombre de téléchargements' );
+define ( 'DOWNLOAD_ADMIN' , 'Administration des téléchargements' );
+define ( 'DOWNLOAD_CAT' , 'Catégorie' );
+define ( 'DOWNLOAD_FILE_UPDATED_SUCCESSFULLY' , 'Fichier modifié avec succès' );
+define ( 'DOWNLOAD_ADD_SUBCAT' , 'Ajouter une sous-catégorie' );
+define ( 'DOWNLOAD_ADD_FILES' , 'Ajouter un fichier' );
+define ( 'DOWNLOAD_FILES' , 'Fichiers' );
+define ( 'DOWNLOAD_HITS' , 'Hits' );
+define ( 'DOWNLOAD_DELETED_CAT' , 'Catégorie supprimé avec succès' );
+define ( 'DOWNLOAD_CAT_EDITED_SUCCESSFULLY' , 'Catégorie modifié avec succès' );
+define ( 'DOWNLOAD_DOWNLOADS' , 'Téléchargements' );
+define ( 'DOWNLOAD_NONE_CATS' , 'Aucune Catégorie !' );
+define ( 'NEED_PASSWORD', 'L\'accès à cette page requiert un mot de passe !' );
+define ( 'CAT_IDENTIFICATION_SUCCESSFULL' , 'Le mot de passe entré est correct, cliquez sur le lien ci-dessous pour vous rendre à la page désirée' );
+define ( 'CAT_IDENTIFICATION_ERROR' , 'Mot de passe entré incorrect !' );
+define ( 'GO_TO_CAT' , 'Se rendre dans la catégorie' );
+define ( 'DOWNLOAD_CAT_FILES' , 'Fichiers présents' );
+define ( 'DOWNLOAD_FILENAME' , 'Nom du fichier' );
+define ( 'DOWNLOAD_NONE_FILES' , 'Aucun fichier disponible' );
+define ( 'DOWNLOAD_NOTE' , 'Note' );
+define ( 'DOWNLOAD_INFOPLUS' , 'Infos supplémentaires' );
+define ( 'DOWNLOAD_EDITOR' , 'Editeur' );
+define ( 'DOWNLOAD_VERSION' , 'Version' );
+define ( 'DOWNLOAD_SORTIE' , 'Date de Sortie' );
+define ( 'DOWNLOAD_SIZE' , 'Taille du fichier' );
+define ( 'DOWNLOAD_LICENSE' , 'Licence' );
+define ( 'DOWNLOAD_PRES_PICS' , 'Image relative au téléchargement' );
+define ( 'DOWNLOAD_EXPIRATION' , 'Attention, ce téléchargement va expirer le : ' );
+define ( 'DOWNLOAD_DOWN' , 'Télécharger' );
+define ( 'NEED_MORE_GROUPS' , 'Ce téléchargement est réservé à certains groupes' );
+define ( 'NEED_MORE_GRADE' , 'Ce téléchargement est réservé à certains grades' );
+define ( 'DOWNLOAD_NEEDED_PERMS' , 'Vous ne pouvez pas télécharger ce fichier !' );
+define ( 'DOWNLOAD_PASS_NEEDED_TO_DL' , 'Un mot de passe est nécessaire pour pouvoir télécharger ce fichier !' );
+define ( 'DOWNLOAD_WRONG_PASSWORD' , 'Mot de passe entré incorrect !' );
+define ( 'DOWNLOAD_ON_DOWNLOAD' , 'Téléchargement de : ' );
+define ( 'DOWNLOAD_WILL_BEGIN_NOW' , 'Le téléchargement va commencer d\'ici quelques instants sur' );
+define ( 'DOWNLOAD_SELECT_AN_OTHER_MIROR' , 'Si le téléchargement ne démarre pas, vous pouvez sélectionner un autre lien ci-dessous' );
+define ( 'DOWNLOAD_MUST_BE_MEMBER' , 'Vous devez être membre pour recommander ce fichier ;)' );
+define ( 'DOWNLOAD_CHOOSE_AN_USER' , 'Veuillez selectionner l\'utilisateur à prévenir' );
+define ( 'DOWNLOAD_RECOMMAND' , 'Afin de recommander ce fichier, vous pouvez envoyer un Message Privé à un autre utilisateur du site' );
+define ( 'DOWNLOAD_MEMBER_DOESNT_EXIST' , 'Le destinataire n\'existe pas :o' );
+define ( 'DOWNLOAD_COURT_MESSAGE' , 'Le message ou le titre est trop court !' );
+define ( 'DOWNLOAD_LINK_WILL_BE_REPLACE' , 'Le marqueur {LIEN} sera remplacé par le lien de la fiche du fichier' );
+define ( 'DOWNLOAD_RECOMMANDED_SUCCESSFULLY' , 'Le message de recommandation à été envoyé avec succès' );
+define ( 'DOWNLOAD_COMMENTS' , 'Commentaires' );
+define ( 'DOWNLOAD_NONE_COMMENT' , 'Aucun commentaire' );
+define ( 'DOWNLOAD_MINIMAL_DATE' , 'Date à partir de laquelle afficher le fichier' );
+define ( 'DOWNLOAD_MAXIMAL_DATE' , 'Date d\'expiration' );
+define ( 'DOWNLOAD_OPTIONEL' , 'Informations optionelles' );
+define ( 'DOWNLOAD_COMMENTS_OR_NOT' , 'Autoriser les commentaires' );
+define ( 'DOWNLOAD_COMMENT_FROM' , 'Commentaire de ' );
+define ( 'DOWNLOAD_PAGE' , 'Page' );
+define ( 'DOWNLOAD_ADD_COMMENT' , 'Ajouter un commentaire' );
+define ( 'DOWNLOAD_CANT_ADD_COMMENT' , 'Vous n\'avez pas les permissions nécessaires pour ajouter des commentaires' );
+define ( 'DOWNLOAD_COMMENT' , 'Commentaire' );
+define ( 'DOWNLOAD_COMMENT_ADDED_SUCCESSFULLY' , 'Commentaire ajouté avec succès' );
+define ( 'DOWNLOAD_CAT_DESCRIPTION' , 'Description de la catégorie' );
+define ( 'DOWNLOAD_FILE_DESCRIPTION' , 'Description du fichier' );
+define ( 'DOWNLOAD_SECURITY_OPTIONS' , 'Stratégies de sécurité' );
+define ( 'DOWNLOAD_ENTER_EACH_LINE' , 'Une Url par ligne' );
+define ( 'DOWNLOAD_ENTER_URLS' , 'Url du fichier' );
+define ( 'DOWNLOAD_ENTER_PICS' , 'Url des images associées au fichier' );
+define ( 'DOWNLOAD_PASSWORD' , 'Mot de Passe' );
+define ( 'DOWNLOAD_GROUPS_ALLOWED' , 'Groupes autorisés à acceder à cette catégorie' );
+define ( 'DOWNLOAD_GROUPSF_ALLOWED' , 'Groupes autorisés à télécharger ce fichier' );
+define ( 'DOWNLOAD_GROUPSC_ALLOWED' , 'Groupes autorisés à poster des commentaires' );
+define ( 'DOWNLOAD_GRADES_ALLOWED' , 'Grades autorisés à acceder à cette catégorie' );
+define ( 'DOWNLOAD_GRADESF_ALLOWED' , 'Grades autorisés à télécharger ce fichier' );
+define ( 'DOWNLOAD_GRADESC_ALLOWED' , 'Grades autorisés à poster des commentaires' );
+define ( 'DOWNLOAD_EVERYONE' , 'Tout le monde' );
+define ( 'DOWNLOAD_ALL_USER' , 'Tous les utilisateurs du site' );
+define ( 'DOWNLOAD_BIG_TITLE_PLEASE' , 'Veuillez entrez un titre de plus de trois caractères' );
+define ( 'DOWNLOAD_CAT_ADDED_SUCCESSFULLY' , 'Catégorie ajouté avec succès' );
+define ( 'DOWNLOAD_FILE_ADDED_SUCCESSFULLY' , 'Fichier ajouté avec succès' );
+define ( 'DOWNLOAD_HERIT_STRATEGIE' , 'Hériter des stratégies de la catégorie parent' );
+define ( 'DOWNLOAD_NEW_STRATEGIE' , 'Définir une nouvelle stratégie de sécurité' );
+define ( 'DOWNLOAD_FILE_SUCCESSFULLY_DELETED' , 'Fichier supprimé avec succès' );
+define ( 'DOWNLOAD_DELETE_FILE' , 'Supprimer le fichier' );
+define ( 'DOWNLOAD_EDIT_FILE' , 'Editer le fichier' );
+// Installation
+define ( 'DOWNLOAD_INSTALL_SUCCESS' , 'Module téléchargement installé avec succès' );
+define ( 'DOWNLOAD_INSTALL_ERROR' , 'Erreur d\'installation du module téléchargement' );
+?>

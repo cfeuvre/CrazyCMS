@@ -1,0 +1,54 @@
+<?php
+
+// Fichier de langue francais des groupes
+define ( 'admin_group' , 'Administration des groupes' );
+define ( 'add_member_in_a_group' , 'Ajouter un membre dans un groupe' );
+define ( 'choose_group' , 'Choisissez le groupe' );
+define ( 'to_modif_group' , 'Modifier un groupe' );
+define ( 'send' , 'Envoyer' );
+define ( 'has_been_added_with_succes_in_groupe' , ' a été ajouté avec succés dans le groupe' );
+define ( 'has_not_been_added_with_succes_in_groupe' , ' n\'a pas été ajouté avec succés dans le groupe car il y était déjà' );
+define ( 'to_create_group' , 'Créer un groupe' );
+define ( 'name_of_group' , 'Nom du groupe' );
+define ( 'group_create' , 'Groupe crée' );
+define ( 'the_group' , 'Le groupe ' );
+define ( 'NONE_MEMBER' , 'Aucun Membre' );
+define ( 'MORE_THAN_2_FOR_GROUPNAME' , 'Le groupe doit avoir un nom de plus de 2 caractères !' );
+define ( 'has_been_create' , ' a été crée avec succés' );
+define ( 'group_desc' , 'Description du groupe' );
+define ( 'group_aff' , 'Afficher le groupe' );
+define ( 'group_pub' , 'Groupe publique?' );
+define ( 'yes' , 'Oui' );
+define ( 'no' , 'Non' );
+define ( 'group_update' , 'Groupe modifié' );
+define ( 'vip' , 'VIP' );
+define ( 'fondateur' , 'Fondateur' );
+define ( 'mods_groupe_no_groupe' , 'Pas de groupe' );
+define ( 'mods_groupe_no_groupe_create' , 'Aucun groupe n\'a encore été crée' );
+define ( 'mods_groupe_list_groupe' , 'Liste des groupes :' );
+define ( 'members' , 'membres' );
+define ( 'liste_pseudo_of' , 'Membres du groupe : ' );
+define ( 'to_join_this_group' , 'Rejoindre ce groupe' );
+define ( 'to_join_group' , 'Rejoindre le groupe : ' );
+define ( 'u_have_joined_this_group' , 'Féliciation, vous avez rejoint le groupe avec succés' );
+define ( 'group_not_public' , 'Désolé mais ce groupe n\'est pas publique, vous ne pouvez pas l\'intégrer' );
+define ( 'u_belonf_alread_at_this_groupe' , 'Vous appartenez déjà a ce groupe' );
+define ( 'to_modif_member_in_a_groupe' , 'Modifier un membre dans un groupe' );
+define ( 'choose_member' , 'Choisissez un membre' );
+define ( 'group_level' , 'Niveau du membre' );
+define ( 'group_supp_member' , 'Confirmer la suppression du membre' );
+define ( 'del_member_groupe' , 'Supprimer le membre du groupe' );
+define ( 'group_member_modify' , 'Membre modifié avec succés' );
+define ( 'group_member_deleted' , 'Membre supprimé' );
+define ( 'group_supp_group' , 'Supprimer ce groupe?' );
+define ( 'group_deleted' , 'Groupe supprimé' );
+define ( 'group_to_delet' , 'Groupe à supprimer' );
+define ( 'group_are_u_sur_to_delet' , 'Etes vous sur de vouloir supprimer ce groupe?' );
+define ( 'del_group' , 'Supprimer un groupe' );
+define ( 'group_modif_color_level' , 'Modifier la couleur des différents niveaux' );
+define ( 'choose_a_level' , 'Choisissez un niveau' );
+define ( 'choose_color' , 'Choisissez une couleur' );
+define ( 'u_can_enter_html_or_name' , 'Vous pouvez mettre par exemple #000000 ou encore black' );
+define ( 'color_modified' , 'Couleur modifiée' );
+define ( 'level_color_modified' , 'La couleur du niveau a été modifiée' );
+?>
